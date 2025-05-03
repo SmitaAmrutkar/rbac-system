@@ -1,17 +1,28 @@
-# RBAC (Role-Based Access Control) System
+# Role-Based Access Control (RBAC) System
 
-A Role-Based Access Control (RBAC) system built with Node.js, Express, and MongoDB. This project includes user authentication with JWT, role-based access control, rate limiting, secure HTTP headers with Helmet, and request logging with Morgan.
+This is a simple implementation of a Role-Based Access Control (RBAC) system using Node.js, Express.js, MongoDB, JWT, and other security features like rate limiting, Helmet, and Morgan.
 
 ## Features
 
-- **User Authentication**: Secure login and registration with JWT tokens.
-- **Role-Based Access Control**: Protects routes based on user roles (e.g., admin, user).
-- **Rate Limiting**: Prevents abuse by limiting requests to 5 per minute.
-- **Helmet**: Sets secure HTTP headers to protect against various vulnerabilities.
-- **Morgan**: Logs HTTP requests to the console for better visibility and debugging.
+- **User Registration & Login**: Users can register and log in using JWT for authentication.
+- **Role-Based Access Control**: Access to certain routes is restricted based on user roles (e.g., admin or user).
+- **Rate Limiting**: Limits the number of requests from a single IP to avoid abuse.
+- **Security Headers**: Helmet is used to set secure HTTP headers to enhance security.
+- **Request Logging**: Morgan is used to log incoming requests for better monitoring and debugging.
+
+## Technologies Used
+
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+- JWT (JSON Web Tokens)
+- Rate Limiting (express-rate-limit)
+- Helmet
+- Morgan
 
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/SmitaAmrutkar/rbac-system.git
