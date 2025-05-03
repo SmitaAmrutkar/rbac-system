@@ -15,3 +15,7 @@ A Role-Based Access Control (RBAC) system built with Node.js, Express, and Mongo
 1. Clone the repository:
    ```bash
    git clone https://github.com/SmitaAmrutkar/rbac-system.git
+
+Install dependencies:
+cd rbac-system
+npm install
